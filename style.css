@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-image: url(./images/bg.jpg);
+    background-size: cover; 
+    background-attachment: fixed;
+
+}
+
+ul, li{
+    list-style: none;
+    float:left;
+    font-size: 19px;
+    margin-left: 62px;
+    margin-top: 27px;
+    margin-right: 75px;
+    
+}
+
+ul, li, a {
+    
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+a:hover{
+    background-color: rgba(224, 119, 21, 0.966);
+    transition: all 0.7s ease-out;
+}
+
+.logo {
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+    padding-left: 100px;
+    padding-top: 10px;
+    margin-top: 32px;
+    margin-left: 75px;
+}
+.text-primary {
+color: white;
+}
+.text-secondary{
+    color: orangered;
+}
+.hr {
+    clear: both;
+    }
+    #search {
+        font-family: Arial;
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 2px solid orangered;
+        margin-top: 35px;
+        color: white;
+        font-size: 16px;
+        float: left;
+        padding: 10px;
+    }
+    #search::placeholder {
+        font-weight: bold;
+    }
+.aramabutonu {
+
+    width: 100px;
+    height: 40px;
+    background: orangered;
+    border: 2px solid orangered;
+    margin-top: 35px;
+    color:white;
+    font-size: 15px;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+
+.aramabutonu:hover{
+
+    color: black;
+}
