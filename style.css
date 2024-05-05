@@ -28,6 +28,7 @@ ul, li, a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+
 a:hover{
     background-color: rgba(224, 119, 21, 0.966);
     transition: all 0.7s ease-out;
@@ -42,16 +43,20 @@ a:hover{
     margin-top: 32px;
     margin-left: 75px;
 }
+
 .text-primary {
 color: white;
 }
+
 .text-secondary{
     color: orangered;
 }
+
 .hr {
     clear: both;
     }
-    #search {
+
+#search {
         font-family: Arial;
         width: 200px;
         height: 40px;
@@ -63,6 +68,7 @@ color: white;
         float: left;
         padding: 10px;
     }
+
     #search::placeholder {
         font-weight: bold;
 
@@ -86,60 +92,117 @@ color: white;
     color: black;
 }
 
-.middle {
-  position: absolute;
-  top: 200px;
-  left: 345px;
-
+.content {
+    position: absolute;
+    top: 200px;
+    left: 345px;
 }
 
 .baslik {
-  color: orangered;
-  text-align: center;
-  font-size: 50px;
-  font-weight: bold;
+    color: orangered;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .paragraf {
-  color: white;
-  text-align: left;
-  font-size: 20px;
+    color: white;
+    text-align: left;
+    font-size: 20px;
 
 }
 .cp {
-  position: absolute;
-  right: 300px;
-  top: 200px;
-  border: 2px solid;
-  height: 320px;
-  width: 320px;
-  background: linear-gradient(to top, rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%) ;
-
-}
-.form2 {
-
+    position: absolute;
+    right: 300px;
+    top: 200px;
+    border: 2px solid;
+    height: 300px;
+    width: 350px;
+    background: linear-gradient(to top, rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%) ;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 #username {
-  background: transparent;
-  border: solid 2px orange;
-  border-width: 3px;
-  border-color: orangered;
-  font-size: 24.5px;
-  font-weight: bold;
-  color: white;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    border-bottom: solid 2px rgba(224, 119, 21, 0.966);
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
 }
 
 #password {
-  background: transparent;
-  border-style: none none solid none;
-  border-color: orangered;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left:none;
+    border-bottom: solid 2px rgba(224, 119, 21, 0.966);
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
 }
 
 .loginbaslik {
-margin-left: 30%;
-  width: 120px;
-  background-color: orangered;
-text-align: center;
-color: white;
+    margin-left: 30%;
+    width: 150px;
+    height: 35px;
+    background-color: orangered;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 2px;
+    color: white;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+.girisyap {
+    margin-top: 50px;
+    height: 40px;
+    width: 120px;
+    background-color: orangered;
+    color: black;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 65px;
+    border-radius: 10px;
+}
+
+.reset {
+    position: absolute;
+    top: 252px;
+    right: 100px;
+    height: 40px;
+    width: 120px;
+    background-color: orangered;
+    color: black;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+.reset:hover, .girisyap:hover{
+    background-color: white;
+    transition: all 0.7s ease-out;
+
+}
+
+footer h2{
+    height: 40px;
+    margin-top: 807.4px;
+    padding-top: 10px;
+    border: solid 2px orangered;
+    background-color: orangered;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
