@@ -6,7 +6,7 @@
 .main{
     width: 100%;
     background-image: url(./images/bg.jpg);
-    background-size: cover; 
+    background-size: cover;
     background-attachment: fixed;
 
 }
@@ -18,11 +18,11 @@ ul, li{
     margin-left: 62px;
     margin-top: 27px;
     margin-right: 75px;
-    
+
 }
 
 ul, li, a {
-    
+
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -65,6 +65,7 @@ color: white;
     }
     #search::placeholder {
         font-weight: bold;
+
     }
 .aramabutonu {
 
@@ -83,4 +84,62 @@ color: white;
 .aramabutonu:hover{
 
     color: black;
+}
+
+.middle {
+  position: absolute;
+  top: 200px;
+  left: 345px;
+
+}
+
+.baslik {
+  color: orangered;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.paragraf {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+
+}
+.cp {
+  position: absolute;
+  right: 300px;
+  top: 200px;
+  border: 2px solid;
+  height: 320px;
+  width: 320px;
+  background: linear-gradient(to top, rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%) ;
+
+}
+.form2 {
+
+}
+
+#username {
+  background: transparent;
+  border: solid 2px orange;
+  border-width: 3px;
+  border-color: orangered;
+  font-size: 24.5px;
+  font-weight: bold;
+  color: white;
+}
+
+#password {
+  background: transparent;
+  border-style: none none solid none;
+  border-color: orangered;
+}
+
+.loginbaslik {
+margin-left: 30%;
+  width: 120px;
+  background-color: orangered;
+text-align: center;
+color: white;
 }
